@@ -1,0 +1,9 @@
+.top-menu {
+    float:inline-start;
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+    background-color: #434343;
+}
+.top-menu a{ margin:5%;}
+

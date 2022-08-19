@@ -1,9 +1,64 @@
-.top-menu {
-    float:inline-start;
-    width: 50%;
-    margin: 0 auto; 
-    text-align: center;
-    background-color: #434343;
+*{
+    margin:0;
+    padding:0;
 }
-.top-menu a{ margin:5%;}
+body{
+    min-height: 100vh;
+}
+header{
+    box-sizing: border-box;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+header ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{ 
+    display:inline;
+    list-style: none;
+    margin-left:30px;
+    color: white;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 10px;
+
+}
+
+.mainbox{
+    
+    display:block;
+}
+.mainbox section{
+    position:relative;
+    display:block;
+    border: 2px solid black;
+    min-height: 800px;
+    position: relative;
+    overflow: hidden;
+    padding:20px 20px;
+
+}
+.foot{
+    position: relative;
+}
+
+#aboutMe{
+    background-color: rgb(167, 97, 97);
+}
+
+#my
+
+.body{
+    min-height: 100vh;
+}

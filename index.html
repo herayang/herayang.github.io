@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="main.css">
+
 <head>
     <title>Hera Yang</title>
 </head>
 <body>
-
+    
     <header>
         <h1>Hera Yang</h1>
         <ul>
             <li><a href="#">home</a></li>
-            <li><a href="#">About Me</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
             <li><a href="#myprojects">Projects</a></li>
-            <li><a href="#">My art</a></li>
+            <li><a href="#art">Art</a></li>
+            <li><a href="contactMe.html">contact me</a></li>
         </ul>
     </header>
 
     <div class="mainbox">
+
         
-        <section id="aboutMe">
+        <section id="aboutMe" >
             <h2>Hi, I'm Hera Yang</h2>
-            <p> A Computer Science Major, currently working on BS degree in BYU-i. </p>
+            <div class="row">
+                
+                <div class="column">
+                    
+                    <p> I'm an aspiring web developer and programmer.I am currently  </p>
+                </div>
+
+                <div class="column">
+                    <p>something over here</p>
+                </div>
+            </div> 
+            
         </section>
         <section id="myprojects">
             <h2>Projects</h2>
             <p>A list of projects I've worked on!</p>
-            <a>learn more</a>
+            <a class ="button" href="gallery.html">see more</a>
+
         </section>
-        <section>
+        <section id="art">
             <h2>What I love</h2>
-            <p>I like to let my creativity out by doodling. Check out this gallery of 
-                cool things I've made! :)
-            </p>
+            <p>I also love doodling and painting! Here are some of my favorite doodles </p>
+            <div class="slide-container">
+                <div class ="slides fade">
+                    <img src="/img/waterboi.png" title="image_1" width = 100% />
+                    
+                </div>
+                <div class ="slides fade">
+                    <img src="/img/man.png" title="image_1" width = 100% />
+                    
+                </div>
+                <div class ="slides fade">
+                    <img src="/img/gwasobi.png" title="image_1" width = 100% />
+                    
+                </div>
+
+            </div>
+            
+            <script src="mainScript.js"></script>
+            
+            <a class ="button" href="gallery.html">see more</a>
         </section>
 
     </div>

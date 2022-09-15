@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 *{
     margin:0;
     padding:0;
+    color:#3D0814;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     min-height: 100vh;
+    background-color: #F6F7EB
 }
 header{
     box-sizing: border-box;
@@ -14,7 +22,18 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color:#05668D
+    
 
+}
+h1{
+    color:#F6F7EB;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#028090;
 }
 
 header ul {
@@ -32,6 +51,7 @@ header ul li{
 header ul li a{
     text-decoration: none;
     padding: 6px 10px;
+    color: #F6F7EB;
 
 }
 
@@ -54,7 +74,7 @@ header ul li a{
 }
 
 #aboutMe{
-    background-color: rgb(167, 97, 97);
+    /* background-color: rgb(167, 97, 97); */
 }
 
 #my
@@ -62,3 +82,45 @@ header ul li a{
 .body{
     min-height: 100vh;
 }
+
+.slide-container{
+    max-width: 1000px; 
+    position: relative;
+    margin: auto; 
+    
+}
+.slides{
+    display:none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background-color: #3D0814;
+    color:#F6F7EB;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.row{
+    display:flex;
+}
+.column{
+    margin:20px;
+    background-color: #05668D;
+}
+.row :first-child {
+    width: 40%;
+  }
